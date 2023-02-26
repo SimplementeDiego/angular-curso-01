@@ -1,0 +1,14 @@
+<p>Listado</p>
+
+
+<div>
+    <input type="text" name="entradaHeroe" id="input">
+    <button type="submit" (click)="agregarHeroe()">Submit</button>
+</div>
+
+
+<ol>
+    <li *ngFor="let heroe of listadoHeroes">
+        {{heroe}}
+    </li>
+</ol>
